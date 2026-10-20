@@ -25,7 +25,7 @@ jobs:
 
       - name: Install Shinylive and dependencies
         run: |
-          install.packages(c("shinylive", "shiny"))
+          install.packages(c("shinylive", "shiny", "DT"))
         shell: Rscript {0}
 
       - name: Export App
