@@ -1,4 +1,5 @@
 library(shiny)
+library(DT)
 
 # 1. UI Section (Paste content from your old ui.R here)
 ui <- fluidPage(navbarPage("Finding Probability",
