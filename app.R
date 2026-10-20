@@ -1,5 +1,5 @@
 library(shiny)
-#library(DT)
+library(DT)
 
 # 1. UI Section (Paste content from your old ui.R here)
 ui <- fluidPage(  tags$head(
