@@ -1,8 +1,11 @@
 library(shiny)
-library(DT)
+#library(DT)
 
 # 1. UI Section (Paste content from your old ui.R here)
-ui <- fluidPage(navbarPage("Finding Probability",
+ui <- fluidPage(  tags$head(
+    tags$script(src = "https://datatables.net")
+  ),
+                navbarPage("Finding Probability",
                            tabPanel("From Frequency",
                                     sidebarLayout(
                                       sidebarPanel(
